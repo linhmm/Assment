@@ -1,0 +1,213 @@
+body{
+    padding: 0px;
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.container>header{
+    height: 0px;
+    background-image: url();
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height: 40px;
+    background-color:rgb(253, 73, 8);
+    color: rgb(8, 0, 0);
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>nav>a{
+    text-decoration: none;
+    color: rgb(7, 1, 8);
+    margin: 0 10px;
+}
+.container nav a:hover{
+    color: yellow;
+}
+.container>article{
+    min-height: 200px;
+    width: 75%;
+    background-color:white;
+    float: left;}
+.container>aside{
+    background-color: rgb(226, 202, 202);
+    min-height: 100px;
+    width: 25%;
+    float: right;
+}
+.container>footer{
+    border-top: 5px double rgb(201, 143, 121) ;
+    line-height: 50px;
+    background-color :rgb(230, 136, 102);
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    
+}
+
+
+
+
+.topnav
+{width: 250px;
+vertical-align: middle;
+white-space: nowrap;
+position: relative;
+}
+.image{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+.noidung{
+      width: 70%;
+      float: right;
+      padding-left: 10px;
+      bottom: 20px;
+}
+.ban-tin{
+      clear: both;
+}
+
+
+/*menu trong aside*/
+ul.vmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow:0 0 5px orangered;
+    list-style:none;
+    }
+    ul.vmenu>li>a{
+        display: block;
+        line-height: 30px;
+        text-decoration: none;
+        font-variant: small-caps;
+        color :orangered;
+        padding-left: 40px;
+        border-bottom: 1px dotted orangered;
+        background: url('image/logo3.png') no-repeat left center ;
+    }
+    ul.vmenu>li>a:hover{
+        background :url('image/logo2.png') no-repeat left center;
+        font-weight: bold;
+        color: red;
+    }
+
+
+
+
+.top-right{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: rgb(202, 145, 124);
+    padding: 5px 10px 5px 20px ;
+
+}
+.top-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.company-info{
+    bottom: 30px;
+    left: 15px;
+}
+.menu>ul>li{
+    position: relative;
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0 px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(194, 96, 61);
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: rgb(15, 14, 14);
+    padding: 10px;
+    line-height: 40px;
+}
+.menu>ul>ul>a{
+    display: block;
+    color: rgb(3, 4, 5);
+    font-size: larger;
+    line-height: 30px;
+    font-variant: small-caps;
+    padding: 0 10px;
+}
+.menu>ul>li:hover{
+    color:rgb(0, 0, 0);
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0 px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: rgb(190, 120, 94);
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: white;
+    color:black;
+}
+ 
+
+
+.col-25{
+    width: 30%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+}    
+.prod>.name{
+    font-variant: small-caps;
+    color:rgb(204, 137, 113);
+    font-weight: bold;
+}
+   
+.prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: rgb(218, 131, 100);
+    bottom: 5px;
+    position: relative;
+    left: 5px;
+}
+
